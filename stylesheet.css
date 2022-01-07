@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  border-left: 3px solid pink;
+  padding-left: 10px;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.flexible-container h2,
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+h3 {
+  font-size: 35px;
+}
+h5 {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(32, 131, 134);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+span {
+  color: orange;
+}
+.flexible-container {
+  width: 100%;
+  display: flex;
+  padding-bottom: 100px;
+}
+.half-width {
+  width: 40%;
+  margin: 0 5%;
+  padding-right: 4%;
+}
+.half-width img,
+.one-third img,
+.one-fourth img {
+  width: 70%;
+}
+.one-third {
+  width: 30%;
+  margin: 0 5%;
+  box-shadow: -3px 0px 19px 2px grey;
+  padding: 0 2%;
+  border-radius: 5px;
+}
+#one-third-1 {
+  background-color: rgba(255, 153, 0, 0.281);
+}
+#one-third-2 {
+  background-color: rgba(255, 1, 43, 0.288);
+}
+#one-third-3 {
+  background-color: rgba(60, 255, 0, 0.329);
+}
+.one-fourth {
+  width: 22%;
+  padding: 0 2%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  margin: 0 5%;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+footer div {
+  font-size: 30px;
+}
+footer div span {
+  color: rgb(255, 64, 64);
+  font-family: "Luxurious Roman", cursive;
+}
+footer p {
+  color: blanchedalmond;
+}
